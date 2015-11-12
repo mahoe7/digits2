@@ -136,9 +136,9 @@ You must login to access any page other than the Home page. Here are screenshots
 
 The application implements a single Collection called "Stuff". Each Stuff document has two fields: a String "name" and a Number "quantity".
 
-The definition of the Stuff collection is in [app/lib/collections/Stuff.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/lib/collections/Stuff.js).
+The definition of the Stuff collection is in [app/lib/collections/Contacts.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/lib/collections/Contacts.js).
 
-The Stuff collection is initialized in [app/server/seeds/Stuff.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/server/seeds/Stuff.js).
+The Stuff collection is initialized in [app/server/seeds/Contacts.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/server/seeds/Contacts.js).
 
 ### CSS
 
@@ -162,7 +162,7 @@ Routing is also used to jump to the List Stuff page after successful form submis
 
 To implement the AddStuff and EditStuff forms, the application uses [AutoForm](https://github.com/aldeed/meteor-autoform).
 
-The schema defining the document structure for the Stuff collection, as well as the Meteor Methods used to insert and update document instances are in [app/lib/collections/Stuff.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/lib/collections/Stuff.js).
+The schema defining the document structure for the Stuff collection, as well as the Meteor Methods used to insert and update document instances are in [app/lib/collections/Contacts.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/lib/collections/Contacts.js).
 
 To present the forms, the application uses the quickform component.  See [app/client/templates/stuff/AddStuff.html](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/client/templates/stuff/AddStuff.html) and [app/client/templates/stuff/EditStuff.html](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/client/templates/stuff/EditStuff.html).
 
